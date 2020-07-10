@@ -1,9 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 body {
-    background-image:url("images/lum3n--RBuQ2PK_L8-unsplash.jpg");
+     background-image:url("images/lum3n--RBuQ2PK_L8-unsplash.jpg"); 
     background-size: cover;
     background-position: fixed;
+    text-decoration: #ccc;
+    
 }
- h1 {
+
+h1 {
     text-align: center;
     font-style:italic;
     position:bottom;
@@ -16,36 +27,41 @@ body {
     text-align:left;
     word-wrap: break-word;
     font-style:italic;
-  }
+}
 
-  .aboutme::after {
+.aboutme::after {
     content: "";
     clear: both;
     display: table;
     width:1px;
     height:1px;
-  }
-  .aboutme img {
+}
+.aboutme img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
-    }
-    .pics {
-        display:flex;
-        flex-direction:row;
-        border-radius:30px;
-        flex-wrap:wrap;
-        padding-left: 50px;
+}
+.pics {
+    display:flex;
+    flex-direction:row;
+    border-radius:30px;
+    flex-wrap:wrap;
+    padding-left: 50px;
 
+}
+p {
+    font-size:20px;
+    font-style:italic;
+}
+.hobbies {
+    padding:15px;
+    margin:15px;
     }
-    p {
-        font-size:20px;
-        font-style:italic;
-    }
-    .hobbies {
-         padding:15px;
-        margin:15px;
-         }
+.card {
+    background-color:  white!important;
+    color:black;
+}
+
          
              
         

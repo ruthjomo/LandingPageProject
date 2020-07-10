@@ -7,8 +7,73 @@
     <title>Document</title>
     <link href="index.css" type="text/css" rel="stylesheet">
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
 </head>
 <body>
+     
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div id=slide></div>
+               <div class="numbertext">1 / 3</div>
+               <img src="./images/nasa-Q1p7bh3SHj8-unsplash.jpg" width="100%" height="600px">
+             </div>
+           
+             <div class="mySlides fade">
+                 <div id="slide"></div>
+               <div class="numbertext">2 / 3</div>
+               <img src="./images/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg" width="100%" height="600px">
+             </div>
+             <div class="mySlides fade">
+                 <div id="slide"></div>
+               <div class="numbertext">3 / 4</div>
+               <img src="./images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg" width="100%" height="600px">
+             </div>
+             <script> var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+              
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                }
+              </script>
+                <script>
+                    var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); 
+      }
+                </script>
     <div>
         <h1>HAVE YOU BEEN LOOKING FOR A DEVELOPER?</h1>
         </div>
@@ -51,21 +116,39 @@
          <h1>My Works</h1>
         </div>
         <div class="container">
-         <div class="row">
-        <div class="card">
-        <h3>PROJECT 1</h3>
-        <p>This was my individual project.I used html and css languages.Click on 
-         the link below to view it.
-        <a href="https://ruthjomo.github.io/Ruth.html" target="_blank"></a></p>
-         </div>
-        <div class="card">
-         <h3>PROJECT 2</h3>
-        <p>This was my group project.Javascript,css and html languages were used.The 
-        project was mainly about real estate.Here is the link 
-        <a href="https://derrickodhiambo.github.io/Galaxy-Project/" target="_blank"></a>
-        </p>
-         </div>
-                     
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h1>Project 1</h1>
+                        <p>This was an individual project that required Html and css languages.Here is the
+                            <a href="https://ruthjomo.github.io/Ruth.html/">link</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <h1>Project 2</h1>
+                    <p>This was a group project that involved the use of Javascript.css and html languages.Here is the
+                        <a href="https://derrickodhiambo.github.io/Galaxy-Project/">link</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+        <div class="footer">
+            
+            <a  class="active"  href="https://twitter.com/MarloneyRupy"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           <a  class="active" href="https://www.facebook.com/ruth.jomo.568/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+           <a  class="active" href="https://www.instagram.com/rupymarloney/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer">
+          <ul>
+             <li>Email:queenspa@gmail.com</li>
+             <li>Call:0790449481</li>
+             </ul>
+             </div>
+       </section>
 
 
                
