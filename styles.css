@@ -16,6 +16,7 @@ h1 {
  text-align:center;
  transform:none;
  margin-top:40px;
+ 
 }
 h2 {
    color:lightseagreen;
@@ -120,7 +121,7 @@ h8 {
    .skills {
    background-color: white;
     padding:40px;
-    margin:40px;
+    margin:30px;
     border-radius:50px;
     color:black;
    }
