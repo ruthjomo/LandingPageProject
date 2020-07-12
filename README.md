@@ -1,4 +1,4 @@
-## project Name:Landing Page Portfolio
+## Project Name:Landing Page Portfolio
 ## Author:RUTH MURONJI JOMO
 
 ## Description
