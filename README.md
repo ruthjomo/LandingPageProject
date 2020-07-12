@@ -11,6 +11,9 @@ This project is a landing page for my programming portfolio.It consists of an ab
 *deploy project to gh-pages
 *commit changes made to gh-pages branch
 
+## project link
+https://ruthjomo.github.io/Landingpageproject/
+
 ## Known bugs
 I experienced no bugs.
 
