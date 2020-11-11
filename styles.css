@@ -12,7 +12,7 @@ body {
 
 h1 {
  font-style:italic;
- color:lightseagreen;
+ color:black;
  font-size:30px;
  text-align:center;
  transform:none;
@@ -20,7 +20,7 @@ h1 {
  
 }
 h2 {
-   color:lightseagreen;
+   color:black;
    font-size:30px;
    font-style:italic;
    margin-left:450px;
@@ -29,7 +29,7 @@ h2 {
    
  margin-right:0;
  margin-left:80px;
- border:1px solid lightskyblue;
+ /* border:1px solid lightskyblue; */
  border-radius:30px;
  margin-top: 50px;
     /* position:fixed;    */
@@ -45,7 +45,7 @@ h2 {
    float:right;
    position:top;
    display:block;
-   margin-right:80%;
+   margin-right:50%;
 }
 #aboutme{
    float:right;
@@ -91,6 +91,9 @@ h2 {
  padding:40px;
  margin:40px;
  border-radius:50px;
+ width:300px;
+   height:300px;
+
 }
 h5{
    color:lightseagreen;
@@ -101,21 +104,48 @@ h5{
    font-style:bold;
 
 }
+#row{
+   margin-left:20px;
+   
+
+}
+#row1{
+   margin-left:10px;
+}
+#row2{
+   margin-left:10px;
+}
 #pizza{
-   width:250px;
-   height:150px;
+   width:300px;
+   height:300px;
 }
 #quotes{
-   width:250px;
-   height:150px;
+   width:300px;
+   height:300px;
 }
 #gitsearch{
-   width:250px;
-   height:150px;
+   width:300px;
+   height:300px;
 }
 #fashion{
-   width:250px;
-   height:150px;
+   width:300px;
+   height:300px;
+}
+#blog{
+   width:300px;
+   height:300px;
+}
+#delani{
+   width:300px;
+   height:300px;
+}
+#akan{
+   width:300px;
+   height:300px;
+}
+#awward{
+   width:300px;
+   height:300px;
 }
 .btn-info{
    margin-left: 50px;
@@ -195,7 +225,7 @@ h8 {
 }
 .contacts {
  font-size:30px;
- color:white;
+ color:black;
  margin-left:150px;
 }
 .contacts p {
